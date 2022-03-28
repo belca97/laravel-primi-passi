@@ -8,7 +8,8 @@
 </head>
 <body>
     <main>
-        <h1>Hello World</h1>
+        <h1>Hello World</h1> <br>
+        <p>{{$saluto}}</p>
     </main>
 </body>
 </html>
@@ -19,5 +20,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
 </style>
